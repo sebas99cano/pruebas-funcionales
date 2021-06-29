@@ -18,6 +18,17 @@ public class Widget {
         this.version = version;
     }
 
+    public Widget(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+
+    public Widget(String name, String description, Integer version) {
+        this.name = name;
+        this.description = description;
+        this.version = version;
+    }
+
     public Long getId() {
         return id;
     }
